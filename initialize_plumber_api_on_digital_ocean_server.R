@@ -7,6 +7,12 @@ library(tidyverse)
 # http://www.exegetic.biz/blog/2017/06/deploying-minimal-plumber-api-digitalocean/
 # https://github.com/sckott/analogsea/issues/154
 
+
+#######################
+# note the preferred way to launch droplet is manually using "hosting_api_on_digital_ocean.docx" instructions,
+# saved in R/plumber folder
+########################
+
 # test connection to digital ocean
 # will list droplets (projects) on digital ocean account
 droplets()
